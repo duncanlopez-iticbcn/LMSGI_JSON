@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    Documento XML para la tienda online.
+    El elemento raíz es <botiga> y de ahí se añaden los productos, en este caso 2.
+-->
+<botiga>
+
+    <!-- Producte 1 -->
+    <producte codi="A001">
+        <nom>Portàtil</nom>
+        <descripcio>Portàtil de 15 polzades amb 16GB de RAM</descripcio>
+        <preu>899.99</preu>
+        <categoria>Informàtica</categoria>
+        <disponibilitat>En estoc</disponibilitat>
+        <imatge>https://m.media-amazon.com/images/I/71+BKl1upWL.jpg</imatge>
+    </producte>
+
+    <!-- Producte 2 -->
+    <producte codi="A002">
+        <nom>Auriculars</nom>
+        <descripcio>Auriculars sense fils amb cancel·lació de soroll</descripcio>
+        <preu>129.50</preu>
+        <categoria>Accessoris</categoria>
+        <disponibilitat>Esgotat</disponibilitat>
+        <imatge>https://sony.scene7.com/is/image/sonyglobalsolutions/wh-ch720_Primary_image?$S7Product$&fmt=png-alpha</imatge>
+    </producte>
+
+</botiga>

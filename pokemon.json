@@ -1,0 +1,84 @@
+{
+  "pokemons": [
+    {
+      "id": 1,
+      "nom": "Bulbasaur",
+      "tipus": ["Planta", "Verí"],
+      "pes": "6.9 kg",
+      "altura": "0.7 m",
+      "estadistiques": {
+        "velocitat": 3,
+        "fortalesa": 3,
+        "precisio": 4,
+        "resistencia": 4
+      },
+      "moviments": [
+        {
+          "nom": "Placaje",
+          "descripcio": "Embestida física contra l’objectiu.",
+          "potencia": 40,
+          "contacte": true
+        },
+        {
+          "nom": "Látigo cepa",
+          "descripcio": "Colpeja amb lianes que surten del bulb.",
+          "potencia": 45,
+          "contacte": true
+        },
+        {
+          "nom": "Drenadoras",
+          "descripcio": "Plantes que roben PS a l’objectiu cada torn.",
+          "potencia": 0,
+          "contacte": false
+        }
+      ],
+      "imatge": "https://images2.wikidexcdn.net/mwuploads/wikidex/4/43/latest/20190406170624/Bulbasaur.png",
+      "evolucions": [
+        {
+          "id_pokemon": 2,
+          "nivell": 16
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nom": "Charmander",
+      "tipus": ["Foc"],
+      "pes": "8.5 kg",
+      "altura": "0.6 m",
+      "estadistiques": {
+        "velocitat": 3,
+        "fortalesa": 2,
+        "precisio": 3,
+        "resistencia": 3
+      },
+      "moviments": [
+        {
+          "nom": "Arañazo",
+          "descripcio": "Gratxada amb les urpes.",
+          "potencia": 40,
+          "contacte": true
+        },
+        {
+          "nom": "Ascuas",
+          "descripcio": "Llança petites flames contra l’objectiu.",
+          "potencia": 40,
+          "contacte": false
+        },
+        {
+          "nom": "Gruñido",
+          "descripcio": "Redueix l’atac del rival amb un grunyit.",
+          "potencia": 0,
+          "contacte": false
+        }
+      ],
+      "imatge": "https://images2.wikidexcdn.net/mwuploads/wikidex/5/56/latest/20200307023245/Charmander.png",
+      "evolucions": [
+        {
+          "id_pokemon": 5,
+          "nivell": 16
+        }
+      ]
+    }
+  ]
+}
